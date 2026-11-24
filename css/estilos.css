@@ -1,0 +1,353 @@
+/* Íconos de Bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400..800;1,400..800&family=Nunito+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --granate: #8e2c3b;
+  --ciruela: #7a5b7e;
+  --salvia: #a7b97c;
+  --oliva: #6e7a3c;
+  --marron: #8c5a3e;
+  --miel: #d4a853;
+  --blanco: #ffffff;
+
+  --salvia-claro: rgba(167, 185, 124, 0.25);
+  --miel-claro: rgba(212, 168, 83, 0.2);
+
+  --font-titulos: "Fraunces", serif;
+  --font-general: "Nunito Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-general);
+  font-weight: 400;
+  background-color: var(--blanco);
+  color: var(--marron);
+}
+
+h1,
+h2,
+h3,
+.navbar-brand,
+.marca {
+  font-family: var(--font-titulos);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+h1,
+h2 {
+  color: var(--granate);
+}
+
+h3 {
+  color: var(--ciruela);
+}
+
+h1 span {
+  color: var(--ciruela);
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+strong {
+  font-weight: 800;
+}
+
+.navbar {
+  background-color: var(--oliva);
+  border-color: var(--miel) !important;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.navbar-brand i {
+  color: var(--miel);
+}
+
+.nav-link {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+  color: var(--blanco);
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: var(--miel);
+}
+
+.btn-danger {
+  background-color: var(--miel);
+  border-color: var(--miel);
+  color: var(--granate);
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: var(--granate);
+  border-color: var(--granate);
+  color: var(--blanco);
+}
+
+.fade {
+  transition-duration: 0.4s !important;
+}
+
+
+.encabezado {
+  background-color: var(--salvia-claro);
+  border-bottom: 3px solid var(--miel);
+}
+
+.etiqueta {
+  color: var(--oliva);
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+.encabezado .lead {
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+
+.caja-menu {
+  background-color: var(--blanco);
+  border-color: var(--salvia) !important;
+}
+
+.btn-receta {
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 12px 15px;
+  border-radius: 8px;
+  background-color: var(--blanco);
+  color: var(--marron);
+  transition: all 0.4s ease;
+}
+
+.btn-receta span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.btn-receta:hover {
+  background-color: var(--ciruela);
+  color: var(--blanco);
+  transform: translate(10px);
+}
+
+.btn-receta:focus {
+  border: 2px solid var(--granate) !important;
+}
+
+#menu-dulce .btn-receta {
+  border: 2px solid var(--miel) !important;
+}
+
+#menu-salada .btn-receta {
+  border: 2px solid var(--salvia) !important;
+}
+
+#detalle-receta {
+  color: var(--marron);
+  border-color: var(--salvia) !important;
+  border-top: 5px solid var(--granate) !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(142, 44, 59, 0.15);
+}
+
+.foto-receta {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  transition: all 0.6s ease;
+}
+
+.foto-receta:hover {
+  transform: rotate(-2deg);
+  opacity: 0.9;
+}
+
+.dato {
+  background-color: var(--salvia-claro);
+  border-color: var(--salvia) !important;
+  font-weight: 700;
+}
+
+.dato i {
+  color: var(--ciruela);
+}
+
+#detalle-receta h2 {
+  color: var(--granate);
+}
+
+.texto-menu h3 {
+  font-size: 1.25rem;
+}
+
+.destacada h3 {
+  font-size: 1rem;
+}
+
+#detalle-receta li {
+  line-height: 1.6;
+}
+
+
+#menu-semanal .border-top,
+.fila-menu {
+  border-color: var(--marron) !important;
+}
+
+.fila-menu {
+  transition: background-color 0.3s ease;
+}
+
+.fila-menu:hover {
+  background-color: var(--miel-claro);
+}
+
+.dia {
+  font-family: var(--font-titulos);
+  font-size: 1.4rem;
+  color: var(--ciruela);
+  width: 140px;
+}
+
+.tipo-dulce,
+.tipo-salada {
+  font-weight: 700;
+  text-align: center;
+  width: 160px;
+}
+
+.tipo-dulce {
+  color: var(--granate);
+  border-color: var(--miel) !important;
+  background-color: var(--miel-claro);
+}
+
+.tipo-salada {
+  color: var(--oliva);
+  border-color: var(--salvia) !important;
+  background-color: var(--salvia-claro);
+}
+
+
+.destacada {
+  background-color: var(--granate);
+  color: var(--blanco);
+  border-color: var(--granate) !important;
+}
+
+.destacada h2,
+.destacada h3 {
+  color: var(--blanco);
+}
+
+.destacada .etiqueta {
+  color: var(--miel);
+}
+
+.foto-destacada {
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.5s ease;
+}
+
+.foto-destacada:hover {
+  transform: rotate(1deg);
+}
+
+.destacada .border-bottom {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  padding: 0 0 16px 0;
+}
+
+.destacada i {
+  color: var(--miel);
+}
+
+
+footer {
+  background-color: var(--oliva);
+  color: var(--blanco);
+  border-color: var(--miel) !important;
+  margin: 40px 0 0 0;
+}
+
+.marca {
+  font-size: 1.3rem;
+}
+
+.marca i {
+  color: var(--miel);
+}
+
+.redes a {
+  color: var(--blanco);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.redes a:hover {
+  color: var(--miel);
+}
+
+
+@media (min-width: 768px) {
+  .fila-menu {
+    align-items: center;
+  }
+
+  .texto-menu {
+    width: 55%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .encabezado .lead {
+    width: 100%;
+  }
+}

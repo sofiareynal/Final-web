@@ -1,0 +1,220 @@
+[
+  {
+    "nombre": "Brownies de chocolate",
+    "tipo": "dulce",
+    "descripcion": "Húmedos por dentro y con una costrita crocante arriba. El clásico infalible para acompañar el café o servir tibio con helado.",
+    "tiempo": "45 min",
+    "porciones": "12 cuadraditos",
+    "dificultad": "Fácil",
+    "imagen": "img/brownies.jpg",
+    "ingredientes": [
+      "200 g de chocolate semiamargo",
+      "150 g de manteca",
+      "200 g de azúcar",
+      "3 huevos",
+      "100 g de harina 0000",
+      "1 cucharadita de esencia de vainilla",
+      "Nueces picadas (opcional)"
+    ],
+    "pasos": [
+      "Precalentar el horno a 180 °C y enmantecar una fuente de 20 x 20 cm.",
+      "Derretir el chocolate con la manteca a baño María y dejar entibiar.",
+      "Batir los huevos con el azúcar y la vainilla hasta que estén espumosos.",
+      "Unir con el chocolate, agregar la harina tamizada y las nueces.",
+      "Hornear 25 minutos: el centro tiene que quedar apenas húmedo.",
+      "Dejar enfriar y cortar en cuadrados."
+    ]
+  },
+  {
+    "nombre": "Apple Crumble",
+    "tipo": "dulce",
+    "descripcion": "Manzanas tiernas con canela debajo de una capa de crumble dorado y crocante. Se sirve tibio, ideal con una bocha de helado de crema.",
+    "tiempo": "1 h",
+    "porciones": "6 porciones",
+    "dificultad": "Fácil",
+    "imagen": "img/apple-crumble.jpg",
+    "ingredientes": [
+      "5 manzanas verdes",
+      "50 g de azúcar (para las manzanas)",
+      "1 cucharadita de canela",
+      "Jugo de 1/2 limón",
+      "150 g de harina 0000",
+      "100 g de azúcar mascabo",
+      "100 g de manteca fría en cubos",
+      "50 g de avena arrollada"
+    ],
+    "pasos": [
+      "Precalentar el horno a 180 °C.",
+      "Pelar las manzanas, cortarlas en cubos y mezclarlas con el azúcar, la canela y el jugo de limón.",
+      "Ubicar las manzanas en una fuente para horno.",
+      "Para el crumble, mezclar la harina, el azúcar mascabo y la avena, y agregar la manteca fría.",
+      "Desarmar la manteca con las yemas de los dedos hasta formar un arenado grueso.",
+      "Cubrir las manzanas con el crumble y hornear 35 a 40 minutos, hasta que esté dorado.",
+      "Dejar entibiar 10 minutos y servir con helado de crema."
+    ]
+  },
+  {
+    "nombre": "Cookies de vainilla con chips de chocolate",
+    "tipo": "dulce",
+    "descripcion": "Doraditas en los bordes, blandas en el centro y llenas de chips de chocolate. Perfectas para la merienda.",
+    "tiempo": "40 min (con reposo)",
+    "porciones": "16 cookies",
+    "dificultad": "Fácil",
+    "imagen": "img/cookies.jpg",
+    "ingredientes": [
+      "115 g de manteca blanda",
+      "100 g de azúcar mascabo",
+      "50 g de azúcar común",
+      "1 huevo",
+      "2 cucharaditas de esencia de vainilla",
+      "200 g de harina 0000",
+      "1/2 cucharadita de bicarbonato de sodio",
+      "1 pizca de sal",
+      "150 g de chips de chocolate"
+    ],
+    "pasos": [
+      "Batir la manteca con los dos azúcares hasta lograr una crema.",
+      "Agregar el huevo y la vainilla y seguir batiendo.",
+      "Incorporar la harina, el bicarbonato y la sal tamizados.",
+      "Sumar los chips de chocolate y mezclar con una espátula.",
+      "Llevar la masa a la heladera durante 15 minutos.",
+      "Formar bolitas, ubicarlas separadas en una placa con papel manteca y hornear a 180 °C durante 10 a 12 minutos.",
+      "Dejar enfriar sobre la placa: al salir del horno todavía están blandas."
+    ]
+  },
+  {
+    "nombre": "Flan casero",
+    "tipo": "dulce",
+    "descripcion": "Suave, cremoso y con mucho caramelo. El postre de siempre, para acompañar con dulce de leche o crema.",
+    "tiempo": "1 h 15 min (+ 4 h de heladera)",
+    "porciones": "8 porciones",
+    "dificultad": "Media",
+    "imagen": "img/flan.jpg",
+    "ingredientes": [
+      "6 huevos",
+      "1 litro de leche",
+      "200 g de azúcar (para el flan)",
+      "1 cucharadita de esencia de vainilla",
+      "150 g de azúcar (para el caramelo)",
+      "Dulce de leche o crema para acompañar"
+    ],
+    "pasos": [
+      "Hacer el caramelo: derretir el azúcar en una budinera a fuego bajo hasta que tome color dorado y cubrir el fondo y los costados.",
+      "Calentar la leche con la vainilla sin que llegue a hervir.",
+      "Batir apenas los huevos con el azúcar, sin hacer espuma.",
+      "Agregar la leche tibia a los huevos de a poco, mezclando, y colar.",
+      "Volcar en la budinera acaramelada y cocinar a baño María en el horno a 160 °C durante 50 minutos.",
+      "Dejar enfriar y llevar a la heladera por lo menos 4 horas.",
+      "Pasar un cuchillo por los bordes y desmoldar sobre un plato."
+    ]
+  },
+  {
+    "nombre": "Empanadas de carne",
+    "tipo": "salada",
+    "descripcion": "Jugosas, con carne cortada a cuchillo, cebolla de verdeo y huevo duro. Bien repulgadas y doradas al horno.",
+    "tiempo": "1 h 30 min",
+    "porciones": "24 empanadas",
+    "dificultad": "Media",
+    "imagen": "img/empanadas.jpg",
+    "ingredientes": [
+      "24 tapas para empanadas de horno",
+      "750 g de carne picada o cortada a cuchillo",
+      "2 cebollas",
+      "1 atado de cebolla de verdeo",
+      "2 huevos duros",
+      "Comino, pimentón dulce, sal y pimienta",
+      "1 huevo batido para pintar"
+    ],
+    "pasos": [
+      "Rehogar las cebollas picadas en una sartén con un poco de aceite.",
+      "Agregar la carne, cocinar hasta que cambie de color y condimentar.",
+      "Retirar del fuego, sumar el verdeo y dejar enfriar por completo.",
+      "Rellenar cada tapa, agregar un trocito de huevo duro y cerrar con repulgue.",
+      "Pintar con huevo batido y hornear a 220 °C durante 15 minutos."
+    ]
+  },
+  {
+    "nombre": "Pizza Margarita",
+    "tipo": "salada",
+    "descripcion": "La clásica pizza napolitana (Margherita): masa fina con bordes inflados, salsa de tomate, mozzarella fresca y hojas de albahaca.",
+    "tiempo": "2 h 30 min (con levado)",
+    "porciones": "2 pizzas",
+    "dificultad": "Media",
+    "imagen": "img/pizza-margarita.jpg",
+    "ingredientes": [
+      "500 g de harina 0000",
+      "325 ml de agua a temperatura ambiente",
+      "10 g de levadura fresca",
+      "10 g de sal",
+      "400 g de tomate triturado",
+      "250 g de mozzarella fresca",
+      "Hojas de albahaca fresca",
+      "Aceite de oliva y sal"
+    ],
+    "pasos": [
+      "Disolver la levadura en el agua, agregar la harina y mezclar. Sumar la sal y amasar 10 minutos hasta lograr una masa lisa.",
+      "Dejar levar tapada durante 2 horas, hasta que duplique su volumen.",
+      "Dividir en 2 bollos y estirarlos con las manos, dejando el borde más grueso.",
+      "Condimentar el tomate triturado con sal y un hilo de aceite de oliva, y repartirlo sobre las masas.",
+      "Agregar la mozzarella cortada en trozos.",
+      "Hornear lo más fuerte posible (250 °C) durante 8 a 10 minutos, hasta que el borde esté dorado.",
+      "Al sacar del horno, sumar las hojas de albahaca y un hilo de aceite de oliva."
+    ]
+  },
+  {
+    "nombre": "Wok de pollo teriyaki",
+    "tipo": "salada",
+    "descripcion": "Pollo dorado con verduras crocantes y fideos, salteado a fuego fuerte en una salsa teriyaki casera, dulce y salada a la vez.",
+    "tiempo": "35 min",
+    "porciones": "4 porciones",
+    "dificultad": "Fácil",
+    "imagen": "img/wok-pollo-teriyaki.jpg",
+    "ingredientes": [
+      "600 g de pechuga de pollo en cubos",
+      "250 g de fideos de huevo tipo chinos",
+      "1 morrón rojo y 1 morrón amarillo en tiras",
+      "1 cebolla en pluma",
+      "2 cebollas de verdeo",
+      "100 ml de salsa de soja",
+      "3 cucharadas de miel",
+      "1 cucharada de jengibre rallado",
+      "2 dientes de ajo picados",
+      "1 cucharada de fécula de maíz",
+      "2 cucharadas de aceite y semillas de sésamo"
+    ],
+    "pasos": [
+      "Preparar la salsa teriyaki: mezclar la soja, la miel, el jengibre, el ajo, la fécula y 50 ml de agua.",
+      "Hervir los fideos según las indicaciones del paquete y escurrirlos.",
+      "Calentar el wok con el aceite a fuego fuerte y dorar el pollo. Retirar.",
+      "En el mismo wok, saltear la cebolla y los morrones durante 3 minutos.",
+      "Volver a agregar el pollo, sumar la salsa y revolver hasta que espese y brille.",
+      "Incorporar los fideos y saltear todo junto 2 minutos más.",
+      "Servir con cebolla de verdeo picada y semillas de sésamo."
+    ]
+  },
+  {
+    "nombre": "Fideos al pesto",
+    "tipo": "salada",
+    "descripcion": "Spaghetti con un pesto casero de albahaca fresca, piñones y queso parmesano. Un plato rápido, fresco y lleno de sabor.",
+    "tiempo": "20 min",
+    "porciones": "4 porciones",
+    "dificultad": "Fácil",
+    "imagen": "img/fideos-al-pesto.jpg",
+    "ingredientes": [
+      "400 g de spaghetti",
+      "2 tazas de hojas de albahaca fresca",
+      "50 g de queso parmesano rallado",
+      "30 g de piñones o nueces",
+      "1 diente de ajo",
+      "100 ml de aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "pasos": [
+      "Poner a hervir abundante agua con sal para los fideos.",
+      "Procesar la albahaca, los piñones, el ajo y el queso, agregando el aceite de oliva en forma de hilo hasta lograr una pasta. Salpimentar.",
+      "Cocinar los spaghetti al dente y reservar media taza del agua de cocción.",
+      "Escurrir los fideos y mezclarlos con el pesto, sumando un poco del agua reservada para que quede cremoso.",
+      "Servir enseguida con queso rallado y unas hojas de albahaca."
+    ]
+  }
+]

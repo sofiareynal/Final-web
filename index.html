@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mis Recetas Favoritas | Recetas dulces y saladas</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-2" id="inicio">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+          <i class="bi bi-egg-fried"></i>
+          Mis Recetas Favoritas
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mi-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mi-menu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recetas">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu-semanal">Menú semanal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacada">Receta destacada</a>
+            </li>
+            <li class="nav-item">
+              <button
+                id="botonModal"
+                class="btn btn-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#miModal"
+              >
+                Compartí tu receta
+              </button>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    
+    <div class="modal fade" id="miModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen-md-down">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Compartí tu receta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <form id="miFormulario" novalidate class="needs-validation">
+
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Nombre Apellido"
+                  required
+                />
+                <div class="invalid-feedback">Te olvidaste de poner tu nombre.</div>
+              </div> 
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="nombre@email.com"
+                  required
+                />
+                <div class="invalid-feedback">Ingresá un email válido.</div>
+              </div> 
+
+              <div class="mb-3">
+                <label for="tipo" class="form-label">Tipo de receta</label>
+                <select class="form-select" name="tipo" id="tipo" required>
+                  <option value="" selected disabled>Elegí una opción</option>
+                  <option value="dulce">Dulce</option>
+                  <option value="salada">Salada</option>
+                </select>
+                <div class="invalid-feedback">Seleccioná si tu receta es dulce o salada.</div>
+                <div class="valid-feedback">¡Buenísimo!</div>
+              </div> 
+              <div class="mb-3">
+                <label for="receta" class="form-label">Nombre de la receta</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="receta"
+                  name="receta"
+                  placeholder="Ej.: Budín de limón de la abuela"
+                  required
+                />
+                <div class="invalid-feedback">Contanos cómo se llama tu receta.</div>
+              </div> 
+
+              <button class="btn btn-danger w-100">Enviar</button>
+
+            </form>
+
+            <div id="mensajeGracias" class="d-none text-center p-4">
+              <i class="bi bi-heart-fill display-5"></i>
+              <p class="fs-4 mb-2">¡Gracias! Completaste el formulario correctamente.</p>
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <header class="encabezado py-5 mb-5">
+      <div class="container py-4">
+
+        <p class="etiqueta text-uppercase fw-bold mb-3">
+          Recetas dulces y saladas · Cocina casera
+        </p>
+
+        <h1 class="display-3 fw-bold mb-3">
+          Mis Recetas
+          <span class="d-block">Favoritas</span>
+        </h1>
+
+        <p class="lead mb-4">
+          Desde unos brownies para la merienda hasta unas empanadas para el domingo:
+          <strong>recetas simples, explicadas paso a paso</strong> para cocinar en casa.
+        </p>
+
+        <a href="#recetas" class="btn btn-danger">Ver las recetas</a>
+
+      </div>
+    </header>
+
+
+    <main class="container pb-5">
+
+      
+      <section id="recetas" class="mb-5">
+
+        <h2 class="mb-2">Nuestras recetas</h2>
+        <p class="mb-4">Elegí una receta del menú para ver sus ingredientes y la preparación.</p>
+
+        <div class="row g-4">
+
+          <aside class="col-lg-4">
+            <div class="border rounded-3 p-4 h-100 caja-menu">
+
+              <h3 class="h4 text-uppercase fw-bold mb-3">
+                <i class="bi bi-cake2"></i> Dulces
+              </h3>
+              <nav id="menu-dulce" class="d-flex flex-column gap-2 mb-4"></nav>
+
+              <h3 class="h4 text-uppercase fw-bold mb-3">
+                <i class="bi bi-basket"></i> Saladas
+              </h3>
+              <nav id="menu-salada" class="d-flex flex-column gap-2"></nav>
+
+            </div>
+          </aside>
+
+          <div class="col-lg-8">
+            <div id="detalle-receta" class="card border-2 h-100">
+              <div class="card-body p-4 p-md-5">
+                <h2 class="mb-3">Cargando recetas...</h2>
+                <p class="mb-0">Seleccioná una receta del menú para descubrir cómo prepararla.</p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- cierra row -->
+      </section>
+
+
+      <section id="menu-semanal" class="mb-5">
+
+        <div class="row align-items-center mb-4">
+          <div class="col-md-7">
+            <h2 class="mb-0">Menú de la semana</h2>
+          </div>
+          <div class="col-md-5">
+            <p class="mb-0">Una idea por día para no pensar qué cocinar.</p>
+          </div>
+        </div>
+
+        <div class="border-top border-2">
+
+          <div class="fila-menu d-flex flex-column flex-md-row gap-2 p-3 border-bottom">
+            <p class="dia fw-bold mb-0">Lunes</p>
+            <div class="texto-menu">
+              <h3 class="mb-2">Wok de pollo teriyaki</h3>
+              <p class="mb-0">Para arrancar la semana con algo rápido y lleno de verduras.</p>
+            </div>
+            <span class="tipo-salada border rounded-5 px-3 py-2">Salada</span>
+          </div>
+
+          <div class="fila-menu d-flex flex-column flex-md-row gap-2 p-3 border-bottom">
+            <p class="dia fw-bold mb-0">Miércoles</p>
+            <div class="texto-menu">
+              <h3 class="mb-2">Cookies de vainilla con chips de chocolate</h3>
+              <p class="mb-0">Una tanda rápida para la merienda.</p>
+            </div>
+            <span class="tipo-dulce border rounded-5 px-3 py-2">Dulce</span>
+          </div>
+
+          <div class="fila-menu d-flex flex-column flex-md-row gap-2 p-3 border-bottom">
+            <p class="dia fw-bold mb-0">Viernes</p>
+            <div class="texto-menu">
+              <h3 class="mb-2">Pizza Margarita</h3>
+              <p class="mb-0">Masa casera para compartir con amigos.</p>
+            </div>
+            <span class="tipo-salada border rounded-5 px-3 py-2">Salada</span>
+          </div>
+
+          <div class="fila-menu d-flex flex-column flex-md-row gap-2 p-3 border-bottom">
+            <p class="dia fw-bold mb-0">Domingo</p>
+            <div class="texto-menu">
+              <h3 class="mb-2">Empanadas de carne y brownies de postre</h3>
+              <p class="mb-0">Almuerzo familiar, de lo salado a lo dulce.</p>
+            </div>
+            <span class="tipo-dulce border rounded-5 px-3 py-2">Dulce y salada</span>
+          </div>
+
+        </div>
+      </section>
+
+
+]      <section id="destacada" class="destacada rounded-3 border">
+        <div class="row">
+
+          <div class="col-md-6 p-3">
+            <img
+              src="img/pastafrola.jpg"
+              class="img-fluid foto-destacada"
+              alt="Pastafrola de membrillo con enrejado de masa"
+            />
+          </div>
+
+          <div class="col-md-6 d-flex flex-column justify-content-center gap-3 p-4 p-md-5">
+            <p class="etiqueta text-uppercase fw-bold mb-0">Receta destacada</p>
+            <h2 class="mb-0">Pastafrola de membrillo</h2>
+            <p class="mb-0">
+              La receta de la abuela: masa sablée con un toque de limón, dulce de membrillo
+              y el clásico enrejado que nunca falla.
+            </p>
+
+            <div class="d-flex align-items-center gap-3 border-bottom">
+              <i class="bi bi-clock fs-4"></i>
+              <div>
+                <h3 class="fw-bold mb-2">1 hora</h3>
+                <p class="mb-0">30 minutos de preparación y 30 de horno a 180 °C.</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border-bottom">
+              <i class="bi bi-basket fs-4"></i>
+              <div>
+                <h3 class="fw-bold mb-2">Ingredientes clave</h3>
+                <p class="mb-0">Harina leudante, manteca, azúcar, huevos y 500 g de dulce de membrillo.</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-lightbulb fs-4"></i>
+              <div>
+                <h3 class="fw-bold mb-2">El secreto</h3>
+                <p class="mb-0">Pisar el membrillo con un chorrito de agua caliente para que quede bien untable.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+
+
+    <footer class="py-4 border-top border-2">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="marca mb-0">
+          <i class="bi bi-egg-fried"></i> Mis Recetas Favoritas
+        </p>
+
+        <p class="mb-0 text-center">Recetas dulces y saladas para cocinar en casa.</p>
+
+        <div class="d-flex gap-3 redes">
+          <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/codigo.js"></script>
+  </body>
+</html>
